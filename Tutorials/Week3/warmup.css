@@ -1,0 +1,9 @@
+div {
+    background-color: aqua;
+    color: black;
+    padding: 20px;
+    margin: auto;
+    width: 300px;
+    border: double 10px darkgreen;
+    text-align: center;
+}

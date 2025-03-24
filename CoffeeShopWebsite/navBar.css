@@ -1,0 +1,44 @@
+:root {
+    /* CSS HEX */
+    --light-sea-green: #00b0a2ff;
+    --light-green: #a2ffa8ff;
+    --midnight-green: #005672ff;
+    --white: #ffffffff;
+    --light-sky-blue: #85d3ffff;
+    --antiflash-white: #ebebebff;
+}
+
+#menu ul {
+    background-color: var(--antiflash-white);
+    list-style-type: none;
+    font-size: large;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 30px;
+}
+#menu li {
+    float: left;
+}
+
+#menu a {
+    padding: 25px;
+    display: block;
+    text-decoration: none;
+    background-color: var(--light-sky-blue);
+    color: var(--midnight-green);
+    border-right: solid 2px black;
+}
+
+ #menu a:hover {
+    /* color and background color */
+    background-color: var(--midnight-green);
+    color: var(--white);
+}
+
+
+#menu #home {
+    float: right;
+    border-left: solid 2px black;
+    border-right: solid 0px black;
+}

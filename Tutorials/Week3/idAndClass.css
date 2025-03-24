@@ -1,0 +1,17 @@
+div {
+    color: chocolate;
+}
+#boxOne {
+    color: black;
+    background-color: aquamarine;
+}
+#box5 {
+    border-width: 10px;
+    border-color: black;
+    border-style: solid;
+    /*  */
+    border: solid black 10px;
+}
+.greenText {
+    color: green;
+}

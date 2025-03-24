@@ -1,0 +1,21 @@
+table {
+    border-collapse: collapse;
+    font-size: 30px;
+}
+
+thead {
+    background-color: coral;
+}
+th {
+    border: 3px black ridge;
+    padding: 20px;
+}
+
+td {
+    padding: 20px;
+   
+}
+
+.borderRight{
+    border-right: 3px black ridge;
+}

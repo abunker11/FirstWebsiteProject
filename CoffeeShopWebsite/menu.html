@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="navBar.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="table.css">
+        
+    </head>
+    <body>
+        <div id="menu">
+            <ul>
+                <li id="home"><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contactUs.html">Contact Us</a>
+                <li><a href="about.html">About</a>
+            </ul>
+        </div>
+
+        <div id="menuTable" class="outerBox">
+            <h1 id="testMenu">Menu</h1>
+            <button onclick="changeCoffeePrice()">Click Me!</button>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Drinks</th>
+                        <th>Price</th>
+                        <th>Ingredients</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="borderRight">Coffee</td>
+                        <td>$2.45</td>
+                        <td >Just Coffee</td>
+                    </tr>
+                    <tr>
+                        <td class="borderRight">Tea</td>
+                        <td id="coffeePrice">$2.45</td>
+                        <td>Just Tea</td>
+                    </tr>
+                    <tr>
+                        <td class="borderRight">Espresso</td>
+                        <td id="espressoPrice">$5.45</td>
+                        <td>Milk and Coffee</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+    <script src="test.js"></script>
+</html>
